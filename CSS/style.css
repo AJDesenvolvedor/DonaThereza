@@ -206,6 +206,8 @@ ul {
     align-items: center;
     width: 100%;
     margin-bottom: 2rem;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .colunaFooterEsquerda {
@@ -249,6 +251,42 @@ ul {
   .btnEnvio,
   .btnReset {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardEventos {
+    margin: 0;
+  }
+
+  .imgEventos {
+    width: 16rem;
+  }
+
+  #icons {
+    font-size: 8px;
+  }
+
+  .tituloCentralizado {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 270px) {
+  .cardEventos {
+    margin: 0;
+  }
+
+  .imgEventos {
+    width: 80%;
+  }
+
+  #icons {
+    font-size: 6px;
+  }
+
+  .tituloCentralizado {
+    font-size: 0.68rem;
   }
 }
 

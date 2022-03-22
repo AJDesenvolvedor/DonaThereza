@@ -258,6 +258,10 @@ main {
     font-size: 1rem;
   }
 
+  body {
+    margin-right: 0;
+  }
+
   #icons {
     display: flex;
     width: 22%;
@@ -314,8 +318,6 @@ main {
     display: inline-block;
     align-items: center;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     margin-bottom: 2rem;
   }
 
@@ -331,17 +333,7 @@ main {
     text-align: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 0;
     margin-bottom: 2rem;
-  }
-
-  .linha {
-    display: inline;
-    margin: 0%;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
   }
 
   .cardCadastro {
