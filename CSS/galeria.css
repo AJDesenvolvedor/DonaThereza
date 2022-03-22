@@ -170,8 +170,12 @@ ul {
 
 .carousel2 {
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  height: 60rem;
+  display: inline;
+  flex-wrap: wrap;
+}
+
+main {
+  margin-top: 1rem;
 }
 
 .swiper {
@@ -207,7 +211,7 @@ ul {
 }
 
 .swiper {
-  width: 45%;
+  width: 60%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -220,7 +224,7 @@ ul {
 
 .mySwiper2 {
   height: 800px;
-  width: 1280px;
+  width: 35%;
 }
 
 .mySwiper {
@@ -244,6 +248,119 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .tituloCentralizado {
+    text-align: center;
+    color: #8c0c04;
+    display: inline;
+    font-size: 1rem;
+  }
+
+  #icons {
+    display: flex;
+    width: 22%;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  #banner {
+    text-align: left;
+    width: 5rem;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 400px;
+    width: 80%;
+  }
+
+  .mySwiper {
+    height: 5rem;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .colunaFooter {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .colunaFooterEsquerda {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .colunaFooterDireita {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-bottom: 2rem;
+  }
+
+  .linha {
+    display: inline;
+    margin: 0%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .cardCadastro {
+    margin: 12rem 0 12rem 1rem;
+    width: 20rem;
+  }
+  .imgCadastro {
+    height: 33vh;
+  }
+  .nameImg {
+    font-size: 15px;
+  }
+  .inputLabel {
+    font-size: 15px;
+  }
+  .btnEnvio,
+  .btnReset {
+    font-size: 15px;
+  }
 }
 
 /* 
