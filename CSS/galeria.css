@@ -354,7 +354,7 @@ main {
     font-size: 15px;
   }
 
-  colunaFooter {
+  .colunaFooter {
     display: inline-block;
     align-items: center;
     width: 100%;
@@ -386,6 +386,42 @@ main {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardEventos {
+    margin: 0;
+  }
+
+  .imgEventos {
+    width: 16rem;
+  }
+
+  #icons {
+    font-size: 8px;
+  }
+
+  .tituloCentralizado {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 270px) {
+  .cardEventos {
+    margin: 0;
+  }
+
+  .imgEventos {
+    width: 80%;
+  }
+
+  #icons {
+    font-size: 6px;
+  }
+
+  .tituloCentralizado {
+    font-size: 0.68rem;
   }
 }
 
