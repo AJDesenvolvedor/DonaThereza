@@ -353,6 +353,40 @@ main {
   .btnReset {
     font-size: 15px;
   }
+
+  colunaFooter {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .colunaFooterEsquerda {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .colunaFooterDireita {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-bottom: 2rem;
+  }
+
+  .linha {
+    display: inline;
+    margin: 0%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }
 
 /* 
